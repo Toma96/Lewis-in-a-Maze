@@ -424,6 +424,7 @@ def create_graph(total_nodes, diff):
                 graph[i][j] = 0
     return graph
 
-
-app = MainApp()
-app.mainloop()
+  
+if __name__=='__main__':
+    app = MainApp()
+    app.mainloop()
